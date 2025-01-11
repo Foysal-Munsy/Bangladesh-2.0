@@ -36,6 +36,10 @@
     /* margin: 0px 24px; */
     line-height: 30px;
 }
+.pcolor{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
 /* btn hover */
 .hov:hover{
     background-color:  rgba(255, 255, 255, 0.8); 
@@ -114,7 +118,32 @@ width: 1300px;
 .vsn-btn-3color{
     background: rgb(255, 194, 57);
 }
-.pcolor{
-    color: rgba(14, 14, 14, 0.7);
-    font-size: 16px;
+
+
+/* News section*/
+#news_parents{
+    margin-top: 50px;
+}
+.news_child{
+    display: flex;
+    gap: 30px;
+    text-align: left;
+    line-height: 30px;
+    background: rgb(245, 245, 245);
+    padding: 40px;
+}
+.date-time-row {
+    /* display: flex; */
+}
+.img-style
+{
+    border-radius: 16px;
+}
+.news_h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 28px;
+    font-weight: 500;
+}
+.img-margin{
+    margin-top: 20px;
 }
