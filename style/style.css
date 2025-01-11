@@ -100,7 +100,7 @@
 }
 
 .vision-description {
-    color: rgba(14, 14, 14, 0.5);
+    color: rgba(14, 14, 14, 0.8);
     margin-bottom: 25px;
     font-size: 14px;
 }
@@ -177,6 +177,9 @@
     margin-top: 50px;
 }
 
+#donate-parents:hover {
+    /* background-color: #22553e; */
+}
 
 
 .donate-btn {
@@ -194,8 +197,6 @@
     cursor: pointer;
     background-color: rgb(198, 228, 214);
 }
-
-
 
 .inpt-btn {
     text-align: center;
@@ -226,6 +227,7 @@
     padding-right: 5%; */
     border-radius: 24px;
     background: rgb(198, 228, 214);
+    margin-bottom: 50px;
 }
 
 .newsletterhead {
@@ -263,4 +265,31 @@
 
 .subscribe-button:hover {
     background-color: #22553e;
+}
+
+.quote_parents {
+    margin-top: 50px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    text-align: left;
+    line-height: 150%;
+    /* font-weight: 14; */
+
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.quote-description {
+    color: rgba(14, 14, 14, 0.8);
+    /* margin-bottom: 25px; */
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.chief {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 14;
 }
