@@ -7,32 +7,49 @@
 .fira-sans{
     font-family: 'Fira Sans',sans-serif;
 }
-.btn-hover{
-
+.sectionTitle{
+    color: rgb(14, 14, 14);
+    font-weight: 700px;
+    font-size: 30px;
+    margin-bottom: 15px;
 }
-
-.dark-green-btn{
-
+.btn{
     border-radius: 8px;
-    background: rgb(0, 106, 80);
-    margin: 0px 48px;
-
     /* font */
     color: rgb(255, 255, 255);
     font-size: 15px;
-
     padding: 10px 30px;
     letter-spacing: 0%;
     text-align: center;
     margin: 24px 0px;
     border: none;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.box-style{
+    box-sizing: border-box;
+    /* width: 390px; */
+    /* height: 300px; */
+    border-radius: 16px;
+    text-align: left;
+    padding: 30px;
+    /* margin: 0px 24px; */
+    line-height: 30px;
 }
 /* btn hover */
-.dark-green-btn:hover {
+.hov:hover{
     background-color:  rgba(255, 255, 255, 0.8); 
     color: black;
     cursor: pointer;
 }
+/* full body */
+.full-body{
+width: 1300px;
+}
+.dark-green-btn{
+    background: rgb(0, 106, 80);
+}
+
 /* Banner section */
 #banner_parents
 {
@@ -40,14 +57,14 @@
     gap: 80px;
     align-items: center;
     /* padding: 150px; */
-    width: 1300px;
+    /* width: 1200px; */
     height: 500px;
     margin-top: 50px;
     padding-left: 5%;
     padding-right: 5%;
     border-radius: 24px;
     background: rgb(198, 228, 214);
-}
+} 
 .banner-head{
     color: rgba(14, 14, 14, 0.5);
     font-size: 18px;
@@ -60,4 +77,44 @@
     font-weight: 600;
     line-height: 67px;
     text-align: left;
+}
+
+/* Vision Section */
+#vision_parents{
+    /* width: 1350px; */
+    margin-top: 50px;
+}
+.vision-description{
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 25px;
+}
+.vision_child{
+    display: flex;
+    gap: 15px;
+}
+.vsn-child-head{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 15px;
+}
+.vision1stchild{
+    background: rgba(84, 144, 245, 0.2);
+}
+.vision2ndchild{
+    background: rgb(198, 228, 214);
+}
+.vision3rdchild{
+    background: rgb(247, 235, 207);
+}
+.vsn-btn-1color{
+    background: rgb(84, 144, 245);
+}
+.vsn-btn-2color{
+    background: rgb(9, 161, 92);
+}
+.vsn-btn-3color{
+    background: rgb(255, 194, 57);
+}
+.pcolor{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
 }
