@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/* shared style*/
+.fira-sans{
+    font-family: 'Fira Sans',sans-serif;
+}
+.btn-hover{
+
+}
+
+.dark-green-btn{
+
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    margin: 0px 48px;
+
+    /* font */
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+
+    padding: 10px 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+    border: none;
+}
+/* btn hover */
+.dark-green-btn:hover {
+    background-color:  rgba(255, 255, 255, 0.8); 
+    color: black;
+    cursor: pointer;
+}
+/* Banner section */
+#banner_parents
+{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    /* padding: 150px; */
+    width: 1300px;
+    height: 500px;
+    margin-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+.banner-head{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 18px;
+    text-align:left;
+    line-height: 29px;
+}
+.banner-description{
+    color: rgb(14, 14, 14);
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left;
+}
